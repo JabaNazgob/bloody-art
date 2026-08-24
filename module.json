@@ -1,0 +1,52 @@
+{
+  "id": "bloody-art",
+  "title": "Bloody Art",
+  "description": "Centralized Bloody Art melee animations for Midi-QOL.",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Nazgob"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13.351",
+    "verified": "13.351",
+    "maximum": "13.999"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "socket": true,
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.2.5",
+          "maximum": "5.2.999"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {
+          "minimum": "13.0.61"
+        }
+      },
+      {
+        "id": "sequencer",
+        "type": "module",
+        "compatibility": {
+          "minimum": "4.2.3"
+        }
+      },
+      {
+        "id": "jb2a_patreon",
+        "type": "module"
+      }
+    ]
+  }
+}
